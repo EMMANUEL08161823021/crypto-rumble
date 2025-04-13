@@ -1,0 +1,17 @@
+.header {
+    max-width: 950px;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    gap: 15px;
+    text-transform: uppercase;
+
+    .icons {
+        font-size: 2rem;
+        color: #f2a900;
+    }
+    span {
+        color: #f2a900;
+    }
+}

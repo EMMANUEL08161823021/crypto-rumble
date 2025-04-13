@@ -1,0 +1,131 @@
+.coinBase {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 3px #072b36;
+    background: #072b36;
+
+    .coin-info {
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+        gap: 10px;
+        align-items: center;
+
+        .coin-rank {
+            background-color: #f2a900;
+            text-align: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;
+
+            &>:nth-child(2) {
+                color: black;
+            }
+        }
+
+        .coin-contents {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+            align-items: center;
+            justify-content: space-between;
+
+            .coin-heading {
+                display: flex;
+                // flex-direction: column;
+                max-width: 200px;
+                justify-content: space-between;
+                align-items: center;
+
+                &>img {
+                    height: 30px;
+                }
+                &>:nth-child(2) {
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        table {
+            max-width: 400px;
+            text-align: center;
+            margin: 0 auto;
+            // justify-content: space-between;
+
+            tbody {
+                background-color: #095068;
+            }
+
+            th {
+                background-color: black;
+                color: white;
+            }
+
+            th, td {
+                padding: 5px;
+            }
+
+        }
+
+        .coin-stats {
+            .left, .right {
+                justify-content: center;
+                // margin: 0 auto;
+                .coin-t {          
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #095068;
+                    padding: 10px;
+                    box-shadow: 0 2px 4px 2px #e0f780;
+                    border-radius: 10px;
+                    margin: 1em auto;      
+                    gap: 100px;
+                }
+
+            }
+
+        }
+
+        .coin-about {
+            margin: 0 2em;
+
+            &>:nth-child(1) {
+                text-align: center;
+                font-size: 1.5em;
+                text-decoration: underline;
+                color: #f2a900;
+                margin: 20px auto;
+            }
+
+        }
+
+
+    }
+}
+
+@media (max-width: 700px) {
+
+    .hide-mobile {
+        display: none;
+    }
+    .coin-stats {
+        .left{
+            width: 350px;
+            margin: 0 auto;
+            .coin-t {                
+                width: 350px;
+                gap: 40px;
+
+            }
+
+        }
+
+    }
+
+}

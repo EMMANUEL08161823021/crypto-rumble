@@ -1,0 +1,26 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #0c3c4c;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    // height: 5vh;
+    gap: 15px;
+    height: 60px;
+    // border: 1px solid black;
+    margin: 0 auto;
+
+    &>img {
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    &>h1 span {
+        color: #f2a900;
+    }
+
+}

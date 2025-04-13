@@ -1,0 +1,26 @@
+.staffs {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3em auto;
+    
+    p {
+        font-size: 1.5rem;
+        color: #f2a900;
+    }
+}
+.info {
+    display: flex;
+    gap: 30px;
+    margin: 2em auto;
+}
+
+
+@media (max-width: 870px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
