@@ -17,7 +17,7 @@ This version introduces **Web3 Wallet Authentication** using **RainbowKit**, **W
 
 - **Frontend**: Next.js, React.js, Tailwind CSS
 - **Web3**: Wagmi, RainbowKit, Ethers.js
-- **Backend**: MongoDB, Firebase (optional)
+- **Backend**: MongoDB
 - **Crypto API**: [CoinGecko](https://coingecko.com) or [CoinMarketCap](https://coinmarketcap.com)
 
 ---
